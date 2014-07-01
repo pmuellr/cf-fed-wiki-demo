@@ -1,0 +1,42 @@
+---
+
+# Licensed under the Apache License. See footer for details.
+
+# this file is by `cf push` to determine the settings your your app
+
+applications:
+
+# the name of the app that you will use in `cf` commands
+
+- name:    cf-fed-wiki
+
+# the indented values are settings for the app they are indented under
+
+  # this is the host name of your app
+  # using the random-word symbol will assign a unique hostname for this app,
+  # every time you do a `cf push`
+
+  host:    cf-fed-wiki-${random-word}
+
+  # amount of RAM we'll need.  Prolly could get by with less!
+
+  memory:  256M
+
+  services:
+  - fed-wiki-mongo-db
+
+#-------------------------------------------------------------------------------
+# Copyright IBM Corp. 2014
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#-------------------------------------------------------------------------------

@@ -1,0 +1,54 @@
+{
+  "name":               "cf-fed-wiki-demo",
+  "main":               "./server",
+  "description":        "Federated Wiki for Cloud Foundry demo",
+  "version":            "0.1.0",
+  "author":             "pmuellr",
+  "license":            "Apache-2.0",
+  "homepage":           "https://github.com/pmuellr/cf-fed-wiki-demo",
+  "repository": {
+    "type":             "git",
+    "url":              "https://github.com/pmuellr/cf-fed-wiki-demo.git"
+  },
+
+  "comment 1":          "cf-fed-wiki-demo is a dependency, must currently be installed locally tho",
+
+  "dependencies": {
+
+    "wiki-plugin-activity":       "0.1",
+    "wiki-plugin-bars":           "0.1",
+    "wiki-plugin-bytebeat":       "0.1",
+    "wiki-plugin-calculator":     "0.1",
+    "wiki-plugin-calendar":       "0.1",
+    "wiki-plugin-changes":        "0.1",
+    "wiki-plugin-chart":          "0.2",
+    "wiki-plugin-code":           "0.1",
+    "wiki-plugin-data":           "0.1",
+    "wiki-plugin-efficiency":     "0.1",
+    "wiki-plugin-factory":        "0.1",
+    "wiki-plugin-favicon":        "0.1",
+    "wiki-plugin-federatedwiki":  "0.1",
+    "wiki-plugin-force":          "0.1",
+    "wiki-plugin-future":         "0.1",
+    "wiki-plugin-image":          "0.1",
+    "wiki-plugin-line":           "0.1",
+    "wiki-plugin-linkmap":        "0.1",
+    "wiki-plugin-logwatch":       "0.1",
+    "wiki-plugin-map":            "0.1",
+    "wiki-plugin-mathjax":        "0.1",
+    "wiki-plugin-metabolism":     "0.1",
+    "wiki-plugin-method":         "0.1",
+    "wiki-plugin-pagefold":       "0.1",
+    "wiki-plugin-paragraph":      "0.1",
+    "wiki-plugin-parse":          "0.1",
+    "wiki-plugin-pushpin":        "0.1",
+    "wiki-plugin-radar":          "0.1",
+    "wiki-plugin-reduce":         "0.1",
+    "wiki-plugin-reference":      "0.1",
+    "wiki-plugin-report":         "0.1",
+    "wiki-plugin-rollup":         "0.1",
+    "wiki-plugin-scatter":        "0.1",
+    "wiki-plugin-twadio":         "0.1",
+    "wiki-plugin-txtzyme":        "0.1"
+  }
+}
